@@ -2,6 +2,13 @@
 let express = require("express")
 //import mysql
 let mysql = require("mysql")
+let cors = require("cors")
+
+//create express app
+let app = express()
+app.use(express.json())
+app.use(cors())
+
 
 //create a connection object
 const connection = mysql.createConnection({
@@ -21,9 +28,6 @@ connection.connect((err)=>{
 
 })
 
-//create express app
-let app = express()
-app.use(express.json())
 
 let friends = [
     {
