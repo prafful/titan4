@@ -53,7 +53,7 @@ let friends = [
 app.get("/",(request, response)=>{
     console.log("Request received for GET")
     console.log(request.url)
-    response.send("Hello from Express API! GET")
+    response.send("Hello from Express API! GET!!!!")
     
 })
 
@@ -132,3 +132,4 @@ app.listen(8888, ()=>{
     
 
 })
+
