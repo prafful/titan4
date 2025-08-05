@@ -36,7 +36,7 @@ let friends = [
     },
     {
         "id":2,
-        "name":"obb",
+        "name":"obbo",
     },
     {
         "id":3,
@@ -130,4 +130,5 @@ app.get("/sectors/all",(request, response)=>{
 app.listen(8888, ()=>{
     console.log("Listening on port 8888")
     
+
 })
