@@ -31,7 +31,7 @@ connection.connect((err)=>{
 
 let friends = [
     {
-        "id":1,
+        "id":8,
         "name":"oki",
     },
     {
@@ -132,6 +132,7 @@ app.listen(8081,'0.0.0.0', ()=>{
     
 
 })
+
 
 
 
