@@ -127,9 +127,10 @@ app.get("/sectors/all",(request, response)=>{
 })
 
 
-app.listen(8888, ()=>{
+app.listen(8888,0.0.0.0, ()=>{
     console.log("Listening on port 8888")
     
 
 })
+
 
